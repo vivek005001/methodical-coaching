@@ -111,14 +111,20 @@
         backdrop-filter: blur(20px);
         flex-direction: column;
         padding: 24px;
-        gap: 8px;
+        gap: 16px;
         border-bottom: 1px solid var(--gray-200);
-        transform: translateY(-110%);
-        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        z-index: 999;
+        
+        /* Modern way to hide without breaking layout */
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        z-index: 990;
     }
 
     .nav-links.open {
+        opacity: 1;
+        visibility: visible;
         transform: translateY(0);
     }
 
@@ -129,6 +135,7 @@
     .nav-links .btn {
         width: 100%;
         justify-content: center;
+        margin-top: 8px;
     }
 }
 
