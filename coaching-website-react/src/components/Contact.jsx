@@ -9,7 +9,7 @@ const infoItems = [
     content: 'F-20-21, Silver Point,\nOpp. Vidhya Bharti School,\nBhatar Char Rasta, Bhatar Road,\nSurat, Gujarat',
   },
   { icon: '📞', label: 'Phone', content: '83476 78914', isPhone: true },
-  { icon: '🕐', label: 'Timings', content: 'Suitable timings available\nMonday – Saturday' },
+  { icon: '🕐', label: 'Timings', content: '4:00 PM - 7:00 PM\nMonday – Saturday' },
   { icon: '📝', label: 'Admission Note', content: 'Students must appear for an aptitude test. Fee payable at registration.' },
 ];
 
