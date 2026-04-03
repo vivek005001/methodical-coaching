@@ -75,5 +75,33 @@
 @media (max-width: 768px) {
     .footer-inner {
         grid-template-columns: 1fr;
+        text-align: center;
+        gap: 32px;
+        padding: 48px 24px 36px;
+    }
+
+    .footer-brand .logo {
+        justify-content: center;
+    }
+
+    .footer-links ul {
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-inner {
+        padding: 36px 16px 28px;
+        gap: 24px;
+    }
+
+    .footer h5 {
+        font-size: 0.8rem;
+    }
+
+    .footer-brand p,
+    .footer-links a,
+    .footer-contact p {
+        font-size: 0.8rem;
     }
 }

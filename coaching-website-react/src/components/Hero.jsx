@@ -2,7 +2,7 @@ import './Hero.css';
 import { useScrollAnimate } from '../hooks/useScrollAnimate';
 
 const stats = [
-  { num: '20+', label: 'Years Experience' },
+  { num: '25+', label: 'Years Experience' },
   { num: 'VI–XII', label: 'Classes Covered' },
   { num: '1:1', label: 'Personal Attention' },
 ];
@@ -20,7 +20,7 @@ export default function Hero() {
       </div>
       <div className="container hero-inner">
         <div className="hero-content animate-hidden" ref={contentRef}>
-          <span className="badge">✦ 20+ Years of Successful Teaching</span>
+          <span className="badge">✦ 25+ Years of Successful Teaching</span>
           <h1>Turn Your Dreams<br /><span className="gradient-text">Into Reality</span></h1>
           <p className="hero-subtitle">
             A golden tradition of faith &amp; success. You have the talent — we give you the platform to conclude its worth to its peak.

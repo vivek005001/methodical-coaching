@@ -25,10 +25,10 @@ const courses = [
     title: 'Pre-Foundation Programme',
     subtitle: 'Class VI to XII · Competitive Focus',
     items: [
-      'Pre Medical (AIPMT / GujCET)',
+      'Pre Medical (GujCET)',
       'Pre Engineering (JEE)',
       'Olympiad Preparation',
-      'NTSE & KVPY',
+      'NTSE',
       'Top Boarding School Entrances',
       'All Competitive Examinations',
     ],

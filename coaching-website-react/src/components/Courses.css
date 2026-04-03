@@ -139,3 +139,25 @@
         padding: 28px 24px;
     }
 }
+
+@media (max-width: 480px) {
+    .course-card {
+        padding: 24px 20px;
+    }
+
+    .course-card h3 {
+        font-size: 1.05rem;
+    }
+
+    .admission-banner {
+        padding: 24px 16px;
+    }
+
+    .admission-text h3 {
+        font-size: 1.2rem;
+    }
+
+    .admission-text p {
+        font-size: 0.85rem;
+    }
+}

@@ -2,19 +2,20 @@ import './About.css';
 import { useScrollAnimate } from '../hooks/useScrollAnimate';
 
 const cards = [
-  { icon: '🎯', title: 'Our Mission', desc: 'To provide every student with focused, one-on-one guidance that builds not just academic knowledge but self-reasoning power and personality.' },
-  { icon: '📺', title: 'Audio-Visual Teaching', desc: 'We use modern audio-visual methods for easy understanding of even the most complex subjects, making learning engaging and effective.' },
+  { icon: '🎯', title: 'Our Mission', desc: 'To provide every student with focused, one-to-one guidance that builds not just academic knowledge but self-reasoning power and personality.' },
+  { icon: '📺', title: 'Audio-Visual Teaching', desc: <>We use modern audio-visual methods (<b>DIGITAL SMART Board learning</b>) for easy understanding of even the most complex subjects, making learning engaging and effective.</> },
   { icon: '📋', title: 'Continuous Evaluation', desc: 'Regular tests after every unit/chapter, written tests at chapter completion, and maximum objective practice ensure thorough preparation.' },
   { icon: '🏆', title: 'Small Batch Size', desc: 'Very few students per batch ensures every child receives individual attention and their learning pace is respected and nurtured.' },
 ];
 
 const terms = [
-  'Registration fee ₹300 payable at the time of registration',
-  'Students must appear for an aptitude test to confirm admission',
+  'Registration fee payable at the time of registration',
   '2nd term fees to be paid by 15th September',
   '10th & 12th class portion completed by October',
-  'Late fee of ₹500 will be charged • All fees are non-refundable',
+  'All fees are non-refundable',
   'Regular attendance is compulsory',
+  'Students must appear for an aptitude test to confirm admission',
+
 ];
 
 export default function About() {

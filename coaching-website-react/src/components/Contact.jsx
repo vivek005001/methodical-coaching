@@ -8,9 +8,9 @@ const infoItems = [
     label: 'Address',
     content: 'F-20-21, Silver Point,\nOpp. Vidhya Bharti School,\nBhatar Char Rasta, Bhatar Road,\nSurat, Gujarat',
   },
-  { icon: '📞', label: 'Phone', content: '98241 39135', isPhone: true },
+  { icon: '📞', label: 'Phone', content: '83476 78914', isPhone: true },
   { icon: '🕐', label: 'Timings', content: 'Suitable timings available\nMonday – Saturday' },
-  { icon: '📝', label: 'Admission Note', content: 'Students must appear for an aptitude test. Fee of ₹300 payable at registration.' },
+  { icon: '📝', label: 'Admission Note', content: 'Students must appear for an aptitude test. Fee payable at registration.' },
 ];
 
 export default function Contact() {
@@ -27,13 +27,16 @@ export default function Contact() {
   const handleSubmit = e => {
     e.preventDefault();
     if (!form.name || !form.phone) return alert('Please fill in your name and phone number.');
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-      setSubmitted(true);
-      setForm({ name: '', phone: '', class: '', course: '', message: '' });
-      setTimeout(() => setSubmitted(false), 5000);
-    }, 1200);
+    
+    const message = `*New Admission Enquiry*\n\n*Name:* ${form.name}\n*Phone:* ${form.phone}\n*Class:* ${form.class || 'Not specified'}\n*Course:* ${form.course || 'Not specified'}\n*Message:* ${form.message || 'None'}`;
+    const whatsappNumber = '918347678914';
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+    
+    window.open(whatsappUrl, '_blank');
+    
+    setSubmitted(true);
+    setForm({ name: '', phone: '', class: '', course: '', message: '' });
+    setTimeout(() => setSubmitted(false), 5000);
   };
 
   return (

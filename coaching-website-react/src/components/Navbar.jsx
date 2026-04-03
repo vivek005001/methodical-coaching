@@ -28,8 +28,8 @@ export default function Navbar() {
     <header id="navbar" className={scrolled ? 'scrolled' : ''}>
       <nav className="container nav-inner">
         <a href="#home" className="logo" onClick={closeMenu}>
-          <span className="logo-icon">M</span>
-          <span className="logo-text">Methodological <em>Coaching</em></span>
+          <img src="/logo.jpeg" alt="Methodical Coaching" className="logo-icon" />
+          <span className="logo-text">Methodical <em>Coaching</em></span>
         </a>
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
           {['about', 'features', 'courses', 'contact'].map(id => (

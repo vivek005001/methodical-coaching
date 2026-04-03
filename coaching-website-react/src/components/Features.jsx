@@ -5,10 +5,10 @@ const features = [
   { num: '01', title: 'One-to-One Teaching', desc: 'Individual guidance and problem-solving instruction tailored to each student\'s pace.' },
   { num: '02', title: 'Self-Reasoning Method', desc: 'Achieve self-reasoning power through our unique Question-Answer approach.' },
   { num: '03', title: 'Exam Preparation', desc: 'Preparation for all tests, school exams, and competitive entrance examinations.' },
-  { num: '04', title: 'Chapter Notes', desc: 'Extra questions and detailed chapter notes provided for thorough subject coverage.' },
+  { num: '04', title: 'Chapter Notes', desc: 'Extra questions and detailed chapter notes provided for subject coverage.' },
   { num: '05', title: 'Writing & MCQ Practice', desc: 'Special emphasis on writing practice and objective-type question preparation.' },
   { num: '06', title: 'Personality Development', desc: 'We build character and make students logically strong for a bright future.' },
-  { num: '07', title: 'Foundation Training', desc: 'Foundation training for IIT, NIT, AIPMT, and top boarding school entrances.' },
+  { num: '07', title: 'Foundation Training', desc: 'Foundation training for IIT, NEET, and top boarding school entrances.' },
   { num: '08', title: 'Verbal & Logical Reasoning', desc: 'Verbal, non-verbal, logical, and analytical reasoning practice for all exams.' },
 ];
 

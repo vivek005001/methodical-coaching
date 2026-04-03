@@ -192,3 +192,46 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 480px) {
+    .hero-inner {
+        padding: 40px 16px;
+        gap: 32px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.95rem;
+    }
+
+    .badge {
+        font-size: 0.7rem;
+        padding: 6px 14px;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .hero-actions .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .stat-num {
+        font-size: 1.3rem;
+    }
+
+    .stat-label {
+        font-size: 0.7rem;
+    }
+
+    .hero-stats {
+        gap: 16px;
+    }
+}
